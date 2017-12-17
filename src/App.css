@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  background-color: #f5f6eb;
+  font-family: 'Lato', sans-serif;
+}
+
+.App-header {
+  margin-top: 30px;
+}
+
+.nav {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.nav li {
+    font-size: 18px;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+.btn-circle .glyphicon {
+  position: relative;
+  top: 4px;
+}
+
+.ToTopButton {
+  position: fixed;
+  right: 35px;
+  bottom: 25px;
+}
+
+.FeaturedImage {
+  height: 500px;
+  color: #fff;
+  background-image: url("https://recipes.oregonlive.com/system/recipes/images/000/003/803/hero/FOOD_WORLDS_FARE_CHILI_SHRIMP_27773105.JPG?1453932234");
+}
+
+.FeaturedImage .container {
+  position: relative;
+  top: 100px;
+}
