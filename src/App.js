@@ -3,6 +3,8 @@ import './App.css';
 import Nav from './Nav';
 import FeaturedImage from './FeaturedImage';
 import Menu from './menu/Menu';
+import Reservations from './Reservations';
+import Contact from './Contact';
 import ToTopButton from './ToTopButton';
 
 class App extends Component {
@@ -14,7 +16,12 @@ class App extends Component {
         </header>
         <Nav />
         <FeaturedImage />
+        <hr />
         <Menu />
+        <hr className="clear" />
+        <Reservations />
+        <hr className="clear" />
+        <Contact />
         <ToTopButton />
       </div>
     );
